@@ -1,0 +1,10 @@
+.header {
+  margin: 45px 200px 40px 200px;
+  display: flex;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(84, 84, 84, 1);
+}
+
+.header__logo {
+  size: 173px 33px;
+}
