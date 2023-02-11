@@ -7,7 +7,6 @@
   flex-direction: column;
   min-height: 100vh;
   font-family: "Inter", sans-serif;
-  font-style: normal;
   font-weight: 400;
   background-color: black;
 }
@@ -15,14 +14,5 @@
 .page__section {
   width: 100%;
   max-width: 880px;
-  box-sizing: border-box;
-  position: relative;
   margin: 0 auto;
-}
-
-@media screen and (max-width: 1100px) {
-  .page__section {
-    margin: 0 auto;
-    max-width: calc(100% - 40px);
-  }
 }
