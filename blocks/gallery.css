@@ -23,6 +23,7 @@
   .gallery {
     margin: 36px 19px 0px 19px;
     padding: 0;
+    display: flex;
   }
 
   .gallery__cards {
