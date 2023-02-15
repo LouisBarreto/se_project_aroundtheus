@@ -8,13 +8,12 @@
   grid-template-columns: repeat(auto-fit, 282px);
   grid-gap: 20px 17px;
   list-style: none;
-  margin: 0;
   padding: 0;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
   .gallery__cards {
-    margin: 48px 200px 67px 200px;
+    margin: 48px 100px 67px;
     grid-template-columns: min-content min-content;
   }
 }
@@ -28,7 +27,6 @@
 
   .gallery__cards {
     justify-items: center;
-    grid-template-columns: 1fr;
     margin: auto;
   }
 }
