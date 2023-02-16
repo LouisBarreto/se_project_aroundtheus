@@ -21,3 +21,10 @@ Technologies Used:
 Good luck and have fun!
 
 Link to My Project: https://louisbarreto.github.io/se_project_aroundtheus/
+
+Mobile Size
+
+![Screenshot_20230215_011921](https://user-images.githubusercontent.com/101958848/219264304-73251caa-2aba-4c54-8b16-7c7e2686c438.png)
+
+Desktop Size
+![Screenshot_20230215_011956](https://user-images.githubusercontent.com/101958848/219264405-1e8b8950-021c-4529-8e40-b5f9f407c56b.png)
