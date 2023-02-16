@@ -14,5 +14,13 @@
 .page__section {
   width: 100%;
   max-width: 880px;
+  box-sizing: border-box;
   margin: 0 auto;
+  position: relative;
+}
+
+@media screen and (max-width: 1140px) {
+  .page__section {
+    width: calc(100% - 40px);
+  }
 }

@@ -2,11 +2,16 @@
   font-family: "Inter", sans-serif;
   background: #ffffff;
   border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .card__description {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 25px 15px 31px 21px;
 }
 
 .card__title {
@@ -18,17 +23,13 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  margin-left: 20px;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  margin: 0;
 }
 
 .card__image {
   width: 282px;
   height: 282px;
-  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
 }
 
 .card__like-button {
