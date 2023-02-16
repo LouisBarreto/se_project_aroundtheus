@@ -16,15 +16,15 @@ Technologies Used:
 
 **Images**
 
-**The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.**
+**Don't forget anyone can optimize imgs [here](https://tinypng.com/), so your project loads faster**
 
-Good luck and have fun!
 
 Link to My Project: https://louisbarreto.github.io/se_project_aroundtheus/
 
-Mobile Size
+**Mobile Size**
 
 ![Screenshot_20230215_011921](https://user-images.githubusercontent.com/101958848/219264304-73251caa-2aba-4c54-8b16-7c7e2686c438.png)
 
-Desktop Size
+**Desktop Size**
+
 ![Screenshot_20230215_011956](https://user-images.githubusercontent.com/101958848/219264405-1e8b8950-021c-4529-8e40-b5f9f407c56b.png)
