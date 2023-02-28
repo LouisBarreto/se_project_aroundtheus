@@ -1,4 +1,4 @@
-Project 3: Around The U.S.
+#Project 3: Around The U.S.
 
 Overview: This project presents straightforward profile features that enable users to upload and modify their information. Other users will be able to view these profiles and "like" them (feature coming soon).
 
