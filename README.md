@@ -8,7 +8,7 @@ Technologies Used:
 -@media quaries
 -Html/CSS
 
-**This project is made so all the elements are displayed correctly on popular screen sizes.
+**This project is made so all the elements are displayed correctly on popular screen sizes.**
 
 **Figma**
 
@@ -17,7 +17,6 @@ Technologies Used:
 **Images**
 
 **Don't forget anyone can optimize imgs [here](https://tinypng.com/), so your project loads faster**
-
 
 Link to My Project: https://louisbarreto.github.io/se_project_aroundtheus/
 
