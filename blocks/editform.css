@@ -1,5 +1,5 @@
 .modal {
-  position: absolute;
+  position: fixed;
   display: none;
   align-items: center;
   justify-content: center;
@@ -10,32 +10,36 @@
   background: rgba(0, 0, 0, 0.15);
 }
 
-.modal__opened {
+.modal__container_opened {
   display: flex;
 }
 
 .modal__container {
   background: white;
   max-width: 430px;
-  max-height: 330px;
   border-radius: 10px;
   padding: 34px 36px;
   position: relative;
 }
 
-.close__button {
+.close {
   width: 40px;
   height: 40px;
-  top: -36px;
-  right: -36px;
+  top: -46px;
+  right: -46px;
   background: none;
   border: 0;
   position: absolute;
   cursor: pointer;
-  padding: 0;
+  background-image: url("../images/CloseIcon.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  border: none;
 }
 
-.close__button:hover {
+.close:hover {
   opacity: 60%;
   transition: 0.4s ease;
 }
@@ -54,6 +58,13 @@
   background: white;
   box-sizing: border-box;
   margin: 0 auto;
+}
+
+.form {
+  box-sizing: border-box;
+  border: none;
+  padding: 0px;
+  margin: 0;
 }
 
 .form__fieldset {
@@ -91,13 +102,15 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  text-align: center;
   color: white;
   background-color: black;
   border: none;
   width: 100%;
   border-radius: 2px;
-  padding: 13px 124px;
+  padding: 20px;
   margin-top: 18px;
+  box-sizing: border-box;
 }
 
 .form__button:hover {
