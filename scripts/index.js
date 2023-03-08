@@ -26,10 +26,10 @@ const initialCards = [
 ];
 
 function getCardElement(data) {
-  let cardTemplate = document.querySelector("#cards").content.cloneNode(true);
+  const cardTemplate = document.querySelector("#cards").content.cloneNode(true);
   const cardElement = cardTemplate.querySelector(".card");
-  let cardImage = cardElement.querySelector(".card__image");
-  let cardTitle = cardElement.querySelector(".card__title");
+  const cardImage = cardElement.querySelector(".card__image");
+  const cardTitle = cardElement.querySelector(".card__title");
   cardImage.src = data.link;
   cardTitle.textContent = data.name;
   cardImage.alt = data.name;
@@ -59,17 +59,17 @@ modal.addEventListener("submit", (event) => {
 function closeModal(modal) {
   modal.classList.remove("modal__opened");
 }
-function modalOpened(modal) {
-  modal.classlist.add("modal_opened");
+function openModal(modal) {
+  modal.classList.add("modal__opened");
 }
 
 editButton.addEventListener("click", function () {
   nameInput.value = profileTitle.textContent;
   descriptionInput.value = profileDescription.textContent;
-  modal.classList.add("modal__opened");
+  openModal(modal);
 });
 closeButton.addEventListener("click", function () {
-  modal.classList.remove("modal__opened");
+  closeModal(modal);
 });
 
 for (let i = 0; i < initialCards.length; i++) {
